@@ -3,7 +3,7 @@
  * Draw a grid on the screen.
  *
  * @author Bill
- * @version March 20 2022
+ * @version March 20, 2022
  * 
  */
 
@@ -95,21 +95,21 @@ public class Screen extends JFrame {
     }
     // This method sets up the basic frame we will use.
     public Screen(){
-        setTitle("Village in Flood");  //Whateveryou want the window to be called.
+        setTitle("Village in Flood");  //Whatever you want the window to be called.
 
         // start with empty map
         for (int r=0;r<ROWS;r++)
             for (int c=0; c<COLS;c++)
                 map[r][c]=-1;  // we use -1 as uninitialised arrays are 0 and we want to catch that.
 
-        // Lets load the library.
+        // Let's load the library.
 
         this.getContentPane().setPreferredSize(new Dimension(wSize,wSize));  
         this.getContentPane().setLayout(null);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 
         this.pack();
-        this.toFront();  // Not too sure what this does, commenting out makes no apparent difference
+        this.toFront();  // Not to sure what this does, commenting out makes no apparent difference
         this.setVisible(true);
 
         // We'll update the board here and call paint again  and again
