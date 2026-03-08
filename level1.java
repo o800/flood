@@ -90,7 +90,7 @@ public class level1
 
     /* You don't need to edit anything below here */
     /**
-     * Constructor for objects of class task1
+     * Constructor for objects of class level1
      */
     public level1()
     {
