@@ -13,7 +13,7 @@
  * Don't forget to fill in your name and details.
  * 
  * @author:   Put your name in here
- * @version:  Put todays date in here.
+ * @version:  Put today's date in here.
  */
 public class level1
 {
@@ -30,7 +30,7 @@ public class level1
     /* end of where you  define arrays.  Don't ADD any lines above here. */
     /* For task one you must:
      * 1: look at line 25 to see how board1 is defined.  Update this to be an array of 20 integers.
-     * 2: In the task1 method, populate all elements of your your board1 array with the value of 1
+     * 2: In the task1 method, populate all elements of your board1 array with the value of 1
      *      You will need to change the loop and the command after it to do this.
      * 3: Set the task number (line 22) to one.
      * 4: Compile and run the "game" class.  Watch what happens.
@@ -54,7 +54,7 @@ public class level1
     
 
     /* for task three, the next row of trees has been planted offset from the first. We need to put sandbags in the odd squares this time.
-     * 1: Update line 27 to defne board3, it should have the same dimensions as board1 but be of floats.
+     * 1: Update line 27 to define board3, it should have the same dimensions as board1 but be of floats.
      * 2: In the task3 method, populate all the ODD elements of your board3 array with the value of 1.1
      * 3: Set the task number (line 22) to three
      * 4: Compile and run the "game" class.  Watch what happens.
@@ -82,7 +82,7 @@ public class level1
      * 1: Update line 29 to define board5.  It should be the same dimensions as board1 but long integers.
      * 2: In the task5 method, populate all the elements of your board5 array that require sandbagging, with the value of 1
      * 3: Set the task number (line 22) to five
-     * 4: Compile and run the "game" class.  Watch what happens..
+     * 4: Compile and run the "game" class.  Watch what happens.
      * */
     void task5(){
 
