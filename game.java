@@ -106,9 +106,9 @@ public class game
         Screen s = new Screen();
         int error=checkTopBoundTooHighLevel1(first); // no errors.
 
-        //System.out.println("DEBUG: Returned from checkTopBoundTooHighLevel1 with code: "+error+"; higest task was "+first.task);
+        //System.out.println("DEBUG: Returned from checkTopBoundTooHighLevel1 with code: "+error+"; highest task was "+first.task);
 
-        // Set the inital flood waters
+        // Set the initial floodwaters
         // first we check items that should give errors.  this makes sure that bounds are not set too high
         // Because of these we can't really do it in a loop.
 
@@ -176,7 +176,7 @@ public class game
                             error=4;
                         }//  no sandbag
 
-                    } // for each square that should be sanbagged.
+                    } // for each square that should be sandbagged.
                 } catch (Exception e){
                     System.out.println("Your code in task 4 has an error in it.");
                     System.out.println(e.toString());
@@ -218,7 +218,7 @@ public class game
                                 System.out.println("You forgot to put a sandbag in square "+i+" for task 2");   
                                 error=2;
                             }//  no sandbag
-                            else s.map[2][i]=1; // lets add the sandbag.
+                            else s.map[2][i]=1; // let's add the sandbag.
                         } // even square
                         if (i%2==1 ){
                             s.map[2][i]=2; // 2=tree
