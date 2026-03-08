@@ -1,14 +1,14 @@
 /**
  * Level 2 *
  * 
- * There are several tasks to accomplish.  Try them one at a time.
+ * There are several tasks to accomplish. Try them one at a time.
  * They are named task1, task2, etc.
  * 
  * 
  * Don't forget to fill in your name and details.
  * 
  * @author:   Put your name in here
- * @version:  Put todays date in here.
+ * @version:  Put today's date in here.
  */
 
 class level2{
